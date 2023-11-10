@@ -22,7 +22,8 @@ Whether you're a seasoned developer or just starting out, this tribute page serv
 ## Live Demo
 https://sreyeesh.github.io/linus-tribute-page/
 
-## Screenshots![Screenshot of my app](/images/LinusScreenshot.png "Screenshot of My App")
+## Screenshots
+![Screenshot of my app](/images/LinusScreenshot.png "Screenshot of My App")
 
 
 
