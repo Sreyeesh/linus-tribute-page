@@ -23,7 +23,7 @@ Whether you're a seasoned developer or just starting out, this tribute page serv
 https://sreyeesh.github.io/linus-tribute-page/
 
 ## Screenshots
-![Screenshot of my app](/images/LinusScreenshot.png "Screenshot of My App")
+![Screenshot of my app](/assets/images/LinusScreenshot.png "Screenshot of My App")
 
 
 
