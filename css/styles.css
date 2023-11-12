@@ -7,9 +7,9 @@ body, h1, h2, p, figure, figcaption {
 
 /* Apply a Linux-inspired color scheme */
 body {
-    background-color: #333; /* Dark grey for background, common in terminal screens */
+    background-color: #333;
     font-family: 'Arial', sans-serif;
-    color: #f0f0f0; /* Light grey for text */
+    color: #f0f0f0;
     line-height: 1.6;
 }
 
@@ -18,8 +18,8 @@ body {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background: #222; /* Even darker shade for the main container */
-    border: 1px solid #444; /* A subtle border */
+    background: #222;
+    border: 1px solid #444;
     border-radius: 4px;
 }
 
@@ -27,35 +27,32 @@ body {
 #title {
     text-align: center;
     margin-bottom: 20px;
-    color: #78C659; /* A green shade similar to the Linux logo */
+    color: #78C659;
 }
 
 /* Style the image and its container */
 #img-div {
     text-align: center;
     margin: 20px 0;
-    padding: 10px;
-    background: #444; /* A slight variation for the image background */
-    border-radius: 4px;
 }
 
 #image {
     max-width: 100%;
     height: auto;
-    border: 3px solid #78C659; /* Green border for the image */
+    border: 3px solid #78C659;
 }
 
 #img-caption {
     margin-top: 10px;
     font-style: italic;
-    color: #aaa; /* Lighter grey for the caption */
+    color: #aaa;
 }
 
 /* Style the tribute info section */
 #tribute-info {
     margin: 20px 0;
     padding: 10px;
-    background: #2B2B2B; /* Subtle background difference for content */
+    background: #2B2B2B;
     border-radius: 4px;
     line-height: 1.7;
 }
@@ -66,8 +63,8 @@ body {
     text-align: center;
     margin: 40px 0;
     padding: 10px 20px;
-    background: #78C659; /* Linux green for the link */
-    color: #222; /* Dark text for contrast */
+    background: #78C659;
+    color: #222;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s;
@@ -75,89 +72,43 @@ body {
 
 /* Hover effect for the link */
 #tribute-link:hover {
-    background: #66a04b; /* A darker shade of green for hover state */
-}
-/* Basic reset */
-body, h1, h2, p, figure, figcaption {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background: #66a04b;
 }
 
-/* Apply a Linux-inspired color scheme */
-body {
-    background-color: #333; /* Dark grey for background, common in terminal screens */
-    font-family: 'Arial', sans-serif;
-    color: #f0f0f0; /* Light grey for text */
-    line-height: 1.6;
-}
+/* Media query for screens up to 600px wide */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
 
-/* Style the main container */
-#main {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #222; /* Even darker shade for the main container */
-    border: 1px solid #444; /* A subtle border */
-    border-radius: 4px;
-}
+    #main {
+        padding: 10px;
+    }
 
-/* Style the title */
-#title {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #78C659; /* A green shade similar to the Linux logo */
-}
+    #title {
+        font-size: 24px;
+    }
 
-/* Style the image and its container */
-#img-div {
-    text-align: center;
-    margin: 20px 0;
-}
+    #img-div {
+        margin: 10px 0;
+    }
 
-#image {
-    max-width: 100%; /* Ensures the image is never wider than its container */
-    height: auto; /* Keeps the image aspect ratio intact */
-    display: block; /* Ensures the image is a block-level element, taking up the full width */
-    margin: 0 auto; /* Centers the block-level image within its container */
-    border-radius: 5px; /* Optional: if you want rounded corners */
-}
+    #image {
+        max-width: 80%;
+        border-width: 2px;
+    }
 
-#img-caption {
-    margin-top: 10px;
-    font-style: italic;
-    color: #555;
-}
+    #img-caption {
+        font-size: 14px;
+    }
 
-#img-caption {
-    margin-top: 10px;
-    font-style: italic;
-    color: #aaa; /* Lighter grey for the caption */
-}
+    #tribute-info {
+        font-size: 14px;
+        padding: 5px;
+    }
 
-/* Style the tribute info section */
-#tribute-info {
-    margin: 20px 0;
-    padding: 10px;
-    background: #2B2B2B; /* Subtle background difference for content */
-    border-radius: 4px;
-    line-height: 1.7;
-}
-
-/* Style the link */
-#tribute-link {
-    display: inline-block;
-    text-align: center;
-    margin: 40px 0;
-    padding: 10px 20px;
-    background: #78C659; /* Linux green for the link */
-    color: #222; /* Dark text for contrast */
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-/* Hover effect for the link */
-#tribute-link:hover {
-    background: #66a04b; /* A darker shade of green for hover state */
+    #tribute-link {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
 }
